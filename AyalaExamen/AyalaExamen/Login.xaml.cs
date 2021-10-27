@@ -12,13 +12,27 @@ namespace AyalaExamen
   [XamlCompilation(XamlCompilationOptions.Compile)]
   public partial class Login : ContentPage
   {
+    /// <summary>
+    /// Nombre de usuario para login
+    /// </summary>
     const string usuario = "estudiante2021";
+    /// <summary>
+    /// Contraseña para el login
+    /// </summary>
     const string contrasenia = "uisrael2021";
+    /// <summary>
+    /// Constrcutor
+    /// </summary>
     public Login()
     {
       InitializeComponent();
     }
 
+    /// <summary>
+    /// Evento para el boton ingresar
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private async void btnIngresar_Clicked(object sender, EventArgs e)
     {
       if (Validacion())
@@ -33,6 +47,10 @@ namespace AyalaExamen
         }
       }
     }
+    /// <summary>
+    /// Metodo que valida los textos
+    /// </summary>
+    /// <returns></returns>
     private bool Validacion()
     {
       bool resultado = true;

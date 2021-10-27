@@ -16,14 +16,42 @@ namespace AyalaExamen
     /// Nombre del usuario
     /// </summary>
     public string usuarioConectado { get; set; }
+    /// <summary>
+    /// Monto total del curso
+    /// </summary>
     public double montoTotal { get; set; }
+    /// <summary>
+    /// Monto inicial que debe pagar el usuario
+    /// </summary>
     public double montoInicial { get; set; }
+    /// <summary>
+    /// Monto que restara monto total y monto inicial
+    /// </summary>
     public double montoDiferencia { get; set; }
+    /// <summary>
+    /// Valor de la cuota es la division entre 3 de la diferencia 
+    /// </summary>
     public double valorCuota { get; set; }
+    /// <summary>
+    /// Valor de la cuota con el interes aplicado del 5 5%
+    /// </summary>
     public double valorCuotaConInteres { get; set; }
+    /// <summary>
+    /// Valor del 5 porciento
+    /// </summary>
     public double porcentajeInteresBase { get; set; }
+    /// <summary>
+    /// Valor de la cuota con interes base
+    /// </summary>
     public double valorInteresBase { get; set; }
+    /// <summary>
+    /// total a pagar es el monto inicial con cuota con interes por 3 cuotas
+    /// </summary>
     public double totalPagar { get; set; }
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="usuarioConectado"></param>
     public Registro(string usuarioConectado)
     {
       InitializeComponent();
@@ -35,6 +63,11 @@ namespace AyalaExamen
 
     }
 
+    /// <summary>
+    /// Evento para calcular
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private async void btnCalcular_Clicked(object sender, EventArgs e)
     {
       if (Valida())
@@ -51,6 +84,10 @@ namespace AyalaExamen
         await Navigation.PushAsync(new Resumen(usuarioConectado, txtNombre.Text, totalPagar));
       }
     }
+    /// <summary>
+    /// Metodo para validar campos
+    /// </summary>
+    /// <returns></returns>
     public bool Valida()
     {
       bool resultado = true;

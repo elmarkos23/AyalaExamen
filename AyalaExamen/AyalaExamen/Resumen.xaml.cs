@@ -12,7 +12,16 @@ namespace AyalaExamen
   [XamlCompilation(XamlCompilationOptions.Compile)]
   public partial class Resumen : ContentPage
   {
+    /// <summary>
+    /// Varianle del usuario conectado
+    /// </summary>
     public string usuarioConectado { get; set; }
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="usuarioConectado"></param>
+    /// <param name="nombre"></param>
+    /// <param name="totalPagar"></param>
     public Resumen(string usuarioConectado, string nombre, double totalPagar)
     {
       InitializeComponent();
