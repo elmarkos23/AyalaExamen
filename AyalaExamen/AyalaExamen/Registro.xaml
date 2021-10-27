@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AyalaExamen.Registro"
+             Title="Registro" BackgroundColor="Silver">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" Margin="10">
+      <Label x:Name="lblUsuarioConectado" HorizontalOptions="CenterAndExpand" TextColor="Blue"  />
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Text="Nombre:" TextColor="Blue"/>
+        <Entry Grid.Row="0" Grid.Column="1" x:Name="txtNombre" Keyboard="Default" TextColor="Black"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Text="Monto Inicial:" TextColor="Blue"/>
+        <Entry Grid.Row="1" Grid.Column="1" x:Name="txtMontoInicial" Keyboard="Numeric" TextColor="Black"/>
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked"/>
+      </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

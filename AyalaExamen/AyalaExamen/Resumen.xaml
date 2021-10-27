@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AyalaExamen.Resumen"
+             Title="Resumen"
+             BackgroundColor="Silver">
+    <ContentPage.Content>
+    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" Margin="10">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Text="Usuario Conectado:" TextColor="Black"/>
+        <Label Grid.Row="0" Grid.Column="1"  x:Name="lblUsuarioConectado" TextColor="Black"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Nombre:" TextColor="Blue"/>
+        <Label Grid.Row="1" Grid.Column="1"  x:Name="lblNombre" TextColor="Black"/>
+        <Label Grid.Row="2" Grid.Column="0" Text="Total a pagar:" TextColor="Blue"/>
+        <Label Grid.Row="2" Grid.Column="1"  x:Name="lblTotalPagar" TextColor="Black"/>
+      </Grid>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

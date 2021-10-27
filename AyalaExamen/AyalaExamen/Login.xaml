@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AyalaExamen.Login"
+             BackgroundColor="Silver"
+             Title="Login">
+  <ContentPage.Content>
+    <StackLayout Margin="10" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+      <Image Source="logouisrael"/>
+      <Label Text="Usuario" TextColor="Blue" />
+      <Entry x:Name="txtUsuario" TextColor="Black"/>
+      <Label Text="Contraseña" TextColor="Blue"/>
+      <Entry x:Name="txtContrasenia" TextColor="Black"/>
+      <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnIngresar_Clicked"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

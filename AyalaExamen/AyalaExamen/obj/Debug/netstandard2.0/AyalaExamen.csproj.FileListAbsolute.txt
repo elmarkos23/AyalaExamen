@@ -1,0 +1,17 @@
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\bin\Debug\netstandard2.0\AyalaExamen.deps.json
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\bin\Debug\netstandard2.0\AyalaExamen.dll
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\bin\Debug\netstandard2.0\ref\AyalaExamen.dll
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\bin\Debug\netstandard2.0\AyalaExamen.pdb
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\AyalaExamen.csproj.AssemblyReference.cache
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\Login.xaml.g.cs
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\Registro.xaml.g.cs
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\AyalaExamen.AssemblyInfoInputs.cache
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\AyalaExamen.AssemblyInfo.cs
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\AyalaExamen.csproj.CoreCompileInputs.cache
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\AyalaExamen.dll
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\ref\AyalaExamen.dll
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\AyalaExamen.pdb
+D:\GitHub\AyalaExamen\AyalaExamen\AyalaExamen\obj\Debug\netstandard2.0\Resumen.xaml.g.cs
